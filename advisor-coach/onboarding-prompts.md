@@ -1,4 +1,4 @@
-# Heather's AI Advisor — Onboarding Prompts
+# Technical adjacent AI Advisor — Onboarding Prompts
 # Work through these in order inside your ChatGPT Project. Paste each prompt, answer the questions, then move to the next.
 
 ---
@@ -72,7 +72,7 @@ A good advisor notices patterns, not just tasks. I want you to understand some o
 
 Ask me these questions one at a time:
 
-1. Is there something you do — or don't do — that you know isn't serving you, but you keep doing anyway? (e.g. staying quiet when you should speak up, taking on too much, second-guessing yourself)
+1. Is there something you do — or don't do — that you know isn't serving you, but you keep doing anyway? (e.g. staying quiet when you should speak up, taking on too much, second-guessing yourself, needing constant reassurance)
 2. When you get feedback or pushback, what's your typical first reaction?
 3. Is there a situation — a type of conversation, a kind of person, a type of task — where you tend to shrink back or hold yourself back?
 4. What does it feel like in your body when you're about to avoid something you know you should do?
@@ -111,9 +111,9 @@ After I've answered all six, summarise the coaching picture you have. Ask me to 
 
 Now produce two things:
 
-**FIRST — my personal context file** in Markdown, saved as `heather-context.md`:
+**FIRST — my personal context file** in Markdown, saved as `context.md`:
 
-# Heather — Personal Advisor Context File
+# Personal Advisor Context File
 
 ## Who I Am
 [Role, background, how she got here, the person behind the job title]
@@ -142,13 +142,13 @@ Now produce two things:
 ## How to Coach Me — Personalised
 
 **When I'm stuck, use these questions:**
-[List her trigger questions from Q1]
+[List trigger questions from Q1]
 
 **Coaching style:**
-[Her preferred style from Q2 — including any situational variations she described]
+[Preferred style from Q2 — including any situational variations described]
 
 **Voices to channel:**
-[Anyone she named in Q3, and what perspective they bring — or a placeholder if she skipped it]
+[Anyone named in Q3, and what perspective they bring — or a placeholder if she skipped it]
 
 **Pet peeves:**
 [Clear list of what NOT to do, from Q4]
@@ -175,7 +175,7 @@ First, let's build a goals file. Ask me these questions one at a time:
 
 After I've answered, generate a goals file in this exact format:
 
-# Heather — Goals
+# Goals
 
 *Last updated: [today's date]*
 
@@ -200,7 +200,7 @@ After you've generated that, tell me: I'd like you to create one more file — a
 
 Generate a starter wins file in this format:
 
-# Heather — Wins Log
+# Wins Log
 
 *A running record of things that went well. Add to this whenever something is worth remembering.*
 
@@ -212,7 +212,7 @@ Generate a starter wins file in this format:
 
 ---
 
-Tell me: save both of these as `heather-goals.md` and `heather-wins.md`. I'll upload them to my project alongside my context file.
+Tell me: save both of these as `goals.md` and `wins.md`. I'll upload them to my project alongside my context file.
 ```
 
 ---
@@ -222,9 +222,9 @@ Tell me: save both of these as `heather-goals.md` and `heather-wins.md`. I'll up
 You'll have three files to upload, plus one update to make to your Project Instructions.
 
 **Step 1 — Upload these three files to Sources:**
-- **`heather-context.md`** — generated in Prompt 5
-- **`heather-goals.md`** — generated in Prompt 6
-- **`heather-wins.md`** — generated in Prompt 6
+- **`context.md`** — generated in Prompt 5
+- **`goals.md`** — generated in Prompt 6
+- **`wins.md`** — generated in Prompt 6
 
 Go to your ChatGPT Project → **Sources → Add sources** and upload all three.
 
@@ -235,6 +235,6 @@ This is the important step. The coaching style lives in Instructions so it's alw
 
 Done. Every conversation in this project now has full context and personalised coaching instructions.
 
-**To add a win:** open a chat, say "Add a win to my wins log: [what happened]", copy the updated entry, and re-upload `heather-wins.md` to Sources.
+**To add a win:** open a chat, say "Add a win to my wins log: [what happened]", copy the updated entry, and re-upload `wins.md` to Sources.
 
 **To update goals or context:** open a chat, paste the section that's changed, describe what's different, ask for an updated version, and replace the file in Sources.
