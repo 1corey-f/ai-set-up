@@ -1,54 +1,35 @@
-# Clinical Systems Team — AI Assistant Setup
+AI Setup — Clinical Systems Team
 
-This folder contains everything an engineer needs to set up their own personalised AI assistant in ChatGPT. Once set up, it will know their role, their projects, how they like to work, and what they're trying to get better at — and it will use that context in every conversation.
+A set of prompts and instructions for setting up a personalised AI assistant in ChatGPT. There are two versions depending on what you need.
 
----
 
-## What you'll end up with
+Which folder is for me?
 
-A ChatGPT Project that:
-- Knows your technical context and the systems you own
-- Helps with governance documentation, integration work, and project management
-- Adapts its responses to how you actually like to work
-- Tracks your skills development focus over time
+advisor-coach/
 
----
+For anyone who wants an AI that acts as a personal advisor and coach — helps with goals, development, work challenges, and the whole person. Includes coaching on patterns, assertiveness, and things you're working on.
 
-## Setup — do this once
+→ Start here if: you want an AI that knows you, challenges you, and helps you grow — not just complete tasks.
 
-**Step 1 — Create a ChatGPT Project**
-In ChatGPT, click your name → Projects → New Project. Give it a name (e.g. "Clinical Systems").
+technical-team/
 
-**Step 2 — Add the system prompt**
-Open the project → Instructions → paste the full contents of `system-prompt.md` into the custom instructions field. Save.
+For engineers and technical roles who want an AI that knows their stack, their integrations, and their documentation responsibilities. Focused on technical problem-solving, governance docs, and project management.
 
-**Step 3 — Run the onboarding prompts**
-Start a new conversation inside your project. Open `onboarding-prompts.md` and work through each prompt in order — paste each one into ChatGPT and answer the questions it asks. This usually takes 20–30 minutes.
+→ Start here if: you want an AI that understands your technical context and helps you work faster.
 
-**Step 4 — Generate and save your context file**
-The final prompt tells ChatGPT to generate your personal context file. Copy the output, save it as `[yourname]-context.md`, and upload it to your project files (paperclip icon in the project sidebar).
 
-**Step 5 — Done**
-Every conversation in this project now has full context. You don't need to re-explain who you are or what you're working on.
+How it works (both versions)
 
----
 
-## Keeping it current
+Create a ChatGPT Project at chat.openai.com → your name → Projects → New Project
+Open the project → click ... → Edit → paste the contents of system-prompt.md into the Instructions field → Save
+Start a new chat inside the project and work through the prompts in onboarding-prompts.md in order
+At the end, ChatGPT generates your personal context file — save it and upload it to your project via Sources → Add sources
 
-Your context file will get stale. Update it when:
-- You take on a new project or hand one off
-- Your skills focus changes
-- Something in your role shifts significantly
 
-To update: open a conversation in your project, paste the relevant section of your `.md` file, describe what's changed, and ask ChatGPT to give you an updated version. Replace the file in your project.
+Done. Every conversation in that project will have full context about who you are and how you work.
 
----
 
-## Files in this folder
+Keeping it current
 
-| File | What it is |
-|---|---|
-| `README.md` | This file — the setup guide |
-| `system-prompt.md` | Paste into ChatGPT Project custom instructions |
-| `onboarding-prompts.md` | Run these in order to build your context file |
-| `context-template.md` | Reference for what your context file should contain |
+Your context file will get stale. When something significant changes — new project, new goal, role shift — open a chat in your project, paste the section that's out of date, describe what changed, and ask ChatGPT for an updated version. Replace the file in Sources.
