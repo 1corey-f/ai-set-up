@@ -83,22 +83,35 @@ After I've answered all five, summarise the patterns you've noticed. Ask me to c
 
 ---
 
-## Prompt 5 of 6 — How You Like to Work
+## Prompt 5 of 6 — Coaching Style
 
 ```
-Last section. I want to make sure you adapt to how I actually think — not use a one-size-fits-all approach.
+This section shapes how I want to be coached — not just what I'm working on, but how I want to be challenged and supported. It's the most important part.
 
 Ask me these questions one at a time:
 
-1. When you're stuck or unsure about something, do you prefer to be asked questions that help you find your own answer — or do you want someone to just tell you what they think?
-2. How direct do you want me to be? If I notice you describing a pattern that isn't serving you, do you want me to name it? How bluntly?
-3. What frustrates you most when you're trying to get help — from a person or an AI?
-4. Do you prefer structured responses with clear steps, or more of a conversation?
-5. Is there anything else I should know about how to be useful to you — or anything you definitely don't want me to do?
+1. When you're stuck or in a funk, what question tends to snap you out of it? For example: "What are you avoiding right now?" / "What would the best version of you do?" / "Is this a Hell Yes or a polite No?" — pick any that resonate, or tell me your own.
 
-After I've answered all five, summarise the picture you have of how I work. Ask me to correct anything before we move on.
+2. How should I talk to you when I notice you slipping into a pattern that isn't serving you? Pick what fits — or describe your own mix:
+   A) Drill Sergeant — direct, zero fluff, call it out immediately
+   B) Socratic Guide — ask questions so you find your own answer
+   C) Therapist — explore the why before jumping to solutions
+   D) Sparring Partner — challenge the thinking, play devil's advocate
+   You can mix and match — e.g. "Sparring Partner on work decisions, Therapist when I'm burnt out."
 
-Now, using everything from our entire conversation today, generate my personal context file in Markdown format using this exact structure:
+3. Is there someone whose voice you want in your head when you're stuck? A mentor, someone you admire, a fictional character — anyone whose perspective cuts through your noise. (Optional — skip if nothing comes to mind.)
+
+4. What frustrates you most about AI responses? Think about the last time one annoyed you — what was it doing?
+
+5. Do you prefer structured responses with clear steps, or a more conversational back-and-forth?
+
+6. Anything you definitely don't want me to do?
+
+After I've answered all six, summarise the coaching picture you have. Ask me to correct anything before we move on.
+
+Now produce two things:
+
+**FIRST — my personal context file** in Markdown, saved as `heather-context.md`:
 
 # Heather — Personal Advisor Context File
 
@@ -123,7 +136,25 @@ Now, using everything from our entire conversation today, generate my personal c
 ---
 *Last updated: [today's date]*
 
-Be specific — use the exact details I gave you. After generating it, ask if anything needs to be added, corrected, or adjusted before I save it.
+**SECOND — a personalised coaching block** to add to my Project Instructions. Label it clearly as "PASTE THIS INTO PROJECT INSTRUCTIONS — add it at the bottom of what's already there":
+
+---
+## How to Coach Me — Personalised
+
+**When I'm stuck, use these questions:**
+[List her trigger questions from Q1]
+
+**Coaching style:**
+[Her preferred style from Q2 — including any situational variations she described]
+
+**Voices to channel:**
+[Anyone she named in Q3, and what perspective they bring — or a placeholder if she skipped it]
+
+**Pet peeves:**
+[Clear list of what NOT to do, from Q4]
+---
+
+Be specific throughout — use the exact details I gave you. After generating both, ask if anything needs adjusting before I save them.
 ```
 
 ---
@@ -188,16 +219,22 @@ Tell me: save both of these as `heather-goals.md` and `heather-wins.md`. I'll up
 
 ## After all six prompts
 
-You'll have three files to save and upload:
+You'll have three files to upload, plus one update to make to your Project Instructions.
 
-1. **`heather-context.md`** — generated at the end of Prompt 5
-2. **`heather-goals.md`** — generated in Prompt 6
-3. **`heather-wins.md`** — generated in Prompt 6
+**Step 1 — Upload these three files to Sources:**
+- **`heather-context.md`** — generated in Prompt 5
+- **`heather-goals.md`** — generated in Prompt 6
+- **`heather-wins.md`** — generated in Prompt 6
 
-For each one: copy the output, save it with the correct filename, then go to your ChatGPT Project → **Sources → Add sources** and upload all three.
+Go to your ChatGPT Project → **Sources → Add sources** and upload all three.
 
-Done. Every conversation in this project now has full context. You don't need to re-explain yourself.
+**Step 2 — Update your Project Instructions:**
+At the end of Prompt 5, ChatGPT generated a personalised coaching block labelled "PASTE THIS INTO PROJECT INSTRUCTIONS". Go to your project → **...** → **Edit** → scroll to the bottom of the Instructions field → paste that block in → Save.
 
-**To add a win:** open a chat in your project, say "Add a win to my wins log: [what happened]", copy the updated entry, and add it to your `heather-wins.md` file. Re-upload it to Sources to replace the old version.
+This is the important step. The coaching style lives in Instructions so it's always active — not buried in a file.
+
+Done. Every conversation in this project now has full context and personalised coaching instructions.
+
+**To add a win:** open a chat, say "Add a win to my wins log: [what happened]", copy the updated entry, and re-upload `heather-wins.md` to Sources.
 
 **To update goals or context:** open a chat, paste the section that's changed, describe what's different, ask for an updated version, and replace the file in Sources.
