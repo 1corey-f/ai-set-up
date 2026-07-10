@@ -20,7 +20,7 @@ For **engineers and technical roles** who want an AI that knows their stack, the
 
 ## How it works
 
-1. Create a **ChatGPT Project** at [chat.openai.com](https://chat.openai.com) → your name → Projects → New Project
+1. Create a **ChatGPT Project** at [chat.openai.com](https://chat.openai.com)  → Projects → New Project (Call it Advisor or My second brain... whatever you like)
 2. Open the project → click **...** → **Edit** → copy [`system-prompt.md`](./system-prompt.md) into the Instructions field → Save
 3. Start a **new chat inside the project** and paste the contents of [`kick-off.md`](./kick-off.md)
 4. Answer one question (Technical or Advisor/Coach) — your onboarding interview begins immediately
